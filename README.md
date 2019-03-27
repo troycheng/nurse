@@ -31,11 +31,11 @@ To run nurse, using `./nurse -f ./detect_host.txt -r https://oapi.dingtalk.com/r
 
 If every thing is ok, it will log like this:
 
-![Nurse log]()
+![Nurse log](imgs/nurse_run.jpg)
 
 If some ports are unstable, nurse will send alert message like this:
 
-![Nurse alert]()
+![Nurse alert](imgs/nurse_example.jpg)
 
 ## Future
 Now Nurse is just a simple health monitor tool on single server with little configuration for near thousand targets, if needed, it can be extended for larger cluster and support more alert methods. 
