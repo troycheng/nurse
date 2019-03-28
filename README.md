@@ -38,7 +38,9 @@ Detecting targets are organized in a text file, for example, `detect_host.txt`:
 
 To run nurse, using: 
 
-`./nurse -f ./detect_host.txt -r https://oapi.dingtalk.com/robot/send?access_token=123 > log.txt 2>&1 &`
+```
+./nurse -f ./detect_host.txt -r https://oapi.dingtalk.com/robot/send?access_token=123 > log.txt 2>&1 &
+```
 
 If every thing is ok, it will log like this:
 
